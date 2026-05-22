@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Kanchipuram Old Silk Sarees Buyers Centre | Professional Appraisal</title>
+    <style>
+        :root {
+            --primary: #5d0f0f; /* Professional Burgundy */
+            --accent: #c5a059;  /* Elegant Gold */
+            --bg: #fdfdfd;
+            --text: #333;
+        }
+        body { font-family: 'Georgia', serif; line-height: 1.8; color: var(--text); background: var(--bg); margin: 0; padding: 0; }
+        header { background: var(--primary); color: white; padding: 4rem 1rem; text-align: center; border-bottom: 5px solid var(--accent); }
+        header h1 { margin: 0; font-size: 2.5rem; letter-spacing: 1px; }
+        section { padding: 3rem 1rem; max-width: 900px; margin: auto; }
+        h2 { color: var(--primary); border-left: 5px solid var(--accent); padding-left: 15px; text-transform: uppercase; letter-spacing: 1.5px; }
+        
+        .box { background: #fff; padding: 25px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        
+        input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 2px; box-sizing: border-box; font-family: inherit; }
+        button { background: var(--primary); color: white; border: none; padding: 15px; width: 100%; cursor: pointer; font-weight: bold; text-transform: uppercase; }
+        button:hover { background: #4a0c0c; }
+        
+        .map-link { color: var(--primary); font-weight: bold; text-decoration: none; border-bottom: 1px solid var(--primary); }
+        .wa-btn { background: #25d366; color: white; text-align: center; padding: 15px; display: block; text-decoration: none; font-weight: bold; margin-top: 20px; }
+        footer { background: #222; color: #aaa; text-align: center; padding: 2rem; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sri Kanchipuram Old Silk Sarees Buyers Centre</h1>
+        <p>Premium Valuation Services for Heirloom Silk</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide a premium, transparent service for individuals looking to sell authentic Kanchipuram and antique silk sarees. Our firm is built on the principles of integrity, accuracy in appraisal, and absolute discretion. We understand the heritage value of your collection and ensure that every valuation is conducted with professional expertise.</p>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="grid">
+            <div class="box"><strong>1. Consultation</strong><br>Reach out to our experts to initiate a formal inquiry regarding your collection.</div>
+            <div class="box"><strong>2. Expert Appraisal</strong><br>We perform a thorough evaluation to determine the authentic market value based on craftsmanship and material.</div>
+            <div class="box"><strong>3. Secure Settlement</strong><br>We provide fair, competitive offers with immediate, secure settlement options.</div>
+        </div>
+    </section>
+
+    <section id="visit">
+        <h2>Visit Our Facility</h2>
+        <div class="box">
+            <p><strong>Location:</strong> Dubai Market, Chinmaya Mission Hospital Rd, Indiranagar, Bengaluru, 560038</p>
+            <p><strong>Operating Hours:</strong> Daily, 11:00 AM – 7:00 PM</p>
+            <p><a href="https://maps.google.com/?cid=6249836269112630812" class="map-link" target="_blank">View Our Location on Google Maps →</a></p>
+        </div>
+    </section>
+
+    <section id="valuation">
+        <h2>Request a Professional Valuation</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Full Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <textarea rows="4" placeholder="Brief description of the saree/collection..."></textarea>
+            <button type="submit">Submit Request</button>
+        </form>
+        <p id="responseMessage" style="text-align: center; font-weight: bold;"></p>
+
+        <a href="https://wa.me/91XXXXXXXXXX" class="wa-btn">Chat with our Appraisal Team on WhatsApp</a>
+    </section>
+
+    <footer>
+        &copy; 2026 Sri Kanchipuram Old Silk Sarees Buyers Centre. All Rights Reserved.
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('responseMessage').textContent = "Thank you. Our appraisal team will contact you shortly.";
+            this.reset();
+        });
+    </script>
+</body>
+</html>
