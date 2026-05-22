@@ -23,50 +23,39 @@
         <p>Fair Valuation. Trusted Experts. Instant Payment.</p>
     </header>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We provide a premium, transparent service for individuals looking to sell authentic Kanchipuram and antique silk sarees. Our firm is built on the principles of integrity, accuracy in appraisal, and absolute discretion. We understand the heritage value of your collection and ensure that every valuation is conducted with professional expertise.</p>
-    </section>
-
-    <section id="how-it-works">
+    <section>
         <h2>How It Works</h2>
-        <div class="grid">
-            <div class="box"><strong>1. Consultation</strong><br>Reach out to our experts to initiate a formal inquiry regarding your collection.</div>
-            <div class="box"><strong>2. Expert Appraisal</strong><br>We perform a thorough evaluation to determine the authentic market value based on craftsmanship and material.</div>
-            <div class="box"><strong>3. Secure Settlement</strong><br>We provide fair, competitive offers with immediate, secure settlement options.</div>
+        <div class="steps">
+            <div class="step-box"><h3>1. Share Photos</h3><p>Send photos of your saree and zari details via WhatsApp.</p></div>
+            <div class="step-box"><h3>2. Appraisal</h3><p>We provide a transparent evaluation based on gold/silver content.</p></div>
+            <div class="step-box"><h3>3. Get Paid</h3><p>We pick up at your doorstep and pay instantly via Cash or UPI.</p></div>
         </div>
     </section>
 
-    <section id="visit">
-        <h2>Visit Our Facility</h2>
-        <div class="box">
-            <p><strong>Location:</strong> Dubai Market, Chinmaya Mission Hospital Rd, Indiranagar, Bengaluru, 560038</p>
-            <p><strong>Operating Hours:</strong> Daily, 11:00 AM – 7:00 PM</p>
-            <p><a href="https://maps.google.com/?cid=6249836269112630812" class="map-link" target="_blank">View Our Location on Google Maps →</a></p>
-        </div>
-    </section>
-
-    <section id="valuation">
-        <h2>Request a Professional Valuation</h2>
+    <section id="contact">
+        <h2>Request a Free Valuation</h2>
         <form id="contactForm">
             <input type="text" placeholder="Full Name" required>
             <input type="tel" placeholder="Phone Number" required>
-            <textarea rows="4" placeholder="Brief description of the saree/collection..."></textarea>
-            <button type="submit">Submit Request</button>
+            <textarea rows="3" placeholder="Describe your saree (e.g., Kanchipuram, vintage, damaged)"></textarea>
+            <button type="submit">Submit Inquiry</button>
         </form>
         <p id="responseMessage" style="text-align: center; font-weight: bold;"></p>
-
-        <a href="https://wa.me/91XXXXXXXXXX" class="wa-btn">Chat with our Appraisal Team on WhatsApp</a>
+        <div style="text-align: center; margin-top: 20px;">
+            <p>Or chat with us directly:</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-btn">Chat on WhatsApp</a>
+        </div>
     </section>
 
-    <footer>
-        &copy; 2026 Sri Kanchipuram Old Silk Sarees Buyers Centre. All Rights Reserved.
+    <footer style="text-align: center; padding: 20px; background: #333; color: white;">
+        <p>Professional Buyers of Kanchipuram, Banarasi, & Antique Silk</p>
+        <p>&copy; 2026 Sri Kanchipuram Old Silk Sarees Buyers Centre</p>
     </footer>
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            document.getElementById('responseMessage').textContent = "Thank you. Our appraisal team will contact you shortly.";
+            document.getElementById('responseMessage').textContent = "Thank you! We will reach out within 24 hours.";
             this.reset();
         });
     </script>
